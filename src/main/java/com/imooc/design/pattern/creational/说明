@@ -1,0 +1,6 @@
+simplefactory   简单工厂模式（不属于GOF23种设计模式）
+factorymethod   工厂方法模式
+abstractfactory 抽象工厂模式
+builder         建造者模式
+singleton       单例模式
+prototype       原型模式

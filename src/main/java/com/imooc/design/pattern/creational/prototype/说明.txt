@@ -1,0 +1,3 @@
+deepclone 深克隆
+shallowclone 浅克隆
+destroysingleton 测试克隆对单例的破坏

@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04502d19-458d-41c2-b9df-419034af6454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/classadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/classadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/classadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/classadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/classadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/objectadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/objectadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/objectadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/objectadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/objectadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ABCBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/AbstractBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/DepositAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ICBCBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/AbstractCatalogComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/CourseCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version1/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version1/BattercakeWithEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version1/BattercakeWithEggSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/ABattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/SausageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/version2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/decorator/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/staticproxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/design/test/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/CalculateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/JieCheng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/JieChengTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/MinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/NewTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/software/SumTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="design_pattern" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DynamicDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/zht/java/Java企业级电商项目架构演进之路  Tomcat集群与Redis分布式/一期+二期资料/mmallv4.0/src/main/java/com/mmall/task/CloseOrderTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11421">
+              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/InvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16740">
+              <caret line="663" column="40" selection-start-line="663" selection-start-column="40" selection-end-line="663" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/staticproxy/OrderServiceStaticProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LazyDoubleCheckSingleton</find>
+      <find>readResolve</find>
+      <find>Constructor</find>
+      <find>Enum</find>
+      <find>valueOf</find>
+      <find>valueOf(int i)</find>
+      <find>high</find>
+      <find>cache</find>
+      <find>method</find>
+      <find>lombok</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/test/CalculateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/design/test/CalculateTestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/CD5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/DC5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/AC220.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/PowerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/说明" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/adapter/example/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/说明.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/Calculate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/CalculateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/EmployeeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/说明" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/software/JieChengTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/MinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/SumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/JieChengTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/software/JieCheng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/CatalogComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/AbstractCatalogComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/CourseCatalog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/DepositAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ICBCBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ABCBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/SavingAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/AbstractBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DataSourceContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/staticproxy/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/ZhengHuaTao/Java/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557674068159" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="tags.panel.visible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.imooc.software" />
+      <recent name="com.imooc.design.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.design.pattern.structural.adapter.objectadapter" />
+      <recent name="com.imooc.design.pattern.creational.factorymethod" />
+      <recent name="com.imooc.design.pattern.creational.abstractfactory" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.imooc.software" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\java\idea\workspace\apache-maven-3.5.4\workspace\design_pattern\src\main\java\com\imooc\design\pattern\structural\adapter\objectadapter" />
+      <recent name="E:\study\java\idea\workspace\apache-maven-3.5.4\workspace\design_pattern\src\main\java\com\imooc\design\pattern\structural\adapter" />
+      <recent name="E:\study\java\idea\workspace\apache-maven-3.5.4\workspace\design_pattern\src\main\java\com\imooc\design\pattern\creational\prototype" />
+      <recent name="E:\study\java\idea\workspace\apache-maven-3.5.4\workspace\design_pattern\src\main\java\com\imooc\design\pattern\creational\builder" />
+      <recent name="E:\study\java\idea\workspace\apache-maven-3.5.4\workspace\design_pattern\src\main\java\com\imooc\design\pattern\creational\abstractfactory" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.design.pattern.structural.proxy.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.design.pattern.structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.design.pattern.structural.composite.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.design.pattern.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.design.pattern.structural.bridge.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.design.pattern.structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JieChengTest.f" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.software.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.software" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.software.JieChengTest" />
+      <option name="METHOD_NAME" value="f" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.software.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.software" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.software.NewTestSuite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.software.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.software" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.software.SumTest" />
+      <option name="METHOD_NAME" value="sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.JieChengTest.f" />
+        <item itemvalue="JUnit.NewTestSuite" />
+        <item itemvalue="JUnit.SumTest.sum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04502d19-458d-41c2-b9df-419034af6454" name="Default Changelist" comment="" />
+      <created>1554424848510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554424848510</updated>
+      <workItem from="1554424852868" duration="1860000" />
+      <workItem from="1554426807676" duration="21045000" />
+      <workItem from="1554512363280" duration="602000" />
+      <workItem from="1554536187499" duration="13534000" />
+      <workItem from="1554603546491" duration="5620000" />
+      <workItem from="1554963852030" duration="2096000" />
+      <workItem from="1554966407572" duration="1683000" />
+      <workItem from="1555286786346" duration="5398000" />
+      <workItem from="1555304390925" duration="4655000" />
+      <workItem from="1555373716448" duration="3882000" />
+      <workItem from="1555389775598" duration="22956000" />
+      <workItem from="1555459350782" duration="5234000" />
+      <workItem from="1555465908473" duration="5908000" />
+      <workItem from="1555474161149" duration="688000" />
+      <workItem from="1555545828760" duration="4746000" />
+      <workItem from="1555566462041" duration="911000" />
+      <workItem from="1555659737367" duration="10816000" />
+      <workItem from="1555684672994" duration="12802000" />
+      <workItem from="1555751216618" duration="9855000" />
+      <workItem from="1555804567582" duration="11704000" />
+      <workItem from="1555858353165" duration="3729000" />
+      <workItem from="1555891436297" duration="804000" />
+      <workItem from="1555892557115" duration="4220000" />
+      <workItem from="1555937756345" duration="213000" />
+      <workItem from="1555982140236" duration="1874000" />
+      <workItem from="1555987377983" duration="116000" />
+      <workItem from="1556431650109" duration="3770000" />
+      <workItem from="1556437408121" duration="5081000" />
+      <workItem from="1556447754519" duration="2194000" />
+      <workItem from="1556496431829" duration="4228000" />
+      <workItem from="1556513819764" duration="118000" />
+      <workItem from="1556588044163" duration="5534000" />
+      <workItem from="1556847974521" duration="1726000" />
+      <workItem from="1556940952474" duration="125000" />
+      <workItem from="1556985375334" duration="108000" />
+      <workItem from="1557065790117" duration="63000" />
+      <workItem from="1557490171882" duration="6417000" />
+      <workItem from="1557535017051" duration="10551000" />
+      <workItem from="1557642822743" duration="1208000" />
+      <workItem from="1557668704227" duration="5095000" />
+      <workItem from="1557731350623" duration="2453000" />
+      <workItem from="1557755494323" duration="1022000" />
+      <workItem from="1557808403932" duration="4046000" />
+      <workItem from="1557817513190" duration="1357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MinTest_min - 2019.04.30 at 10h 35m 33s.xml">
+      <configuration name="MinTest.min" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumTest_sum - 2019.04.30 at 10h 40m 39s.xml">
+      <configuration name="SumTest.sum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumTest_sum - 2019.04.30 at 10h 41m 19s.xml">
+      <configuration name="SumTest.sum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.04.30 at 10h 43m 45s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.04.30 at 10h 44m 07s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JieChengTest_f - 2019.04.30 at 10h 44m 18s.xml">
+      <configuration name="JieChengTest.f" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.04.30 at 10h 44m 39s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.04.30 at 10h 45m 53s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.04.30 at 10h 49m 13s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JieChengTest_f - 2019.04.30 at 11h 05m 36s.xml">
+      <configuration name="JieChengTest.f" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="212047000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969231" weight="0.30161053" />
+      <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.30937973" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5030769" side_tool="true" weight="0.30937973" />
+      <window_info id="Learn" order="7" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7265745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41692308" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.5723077" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32718894" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.5953846" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.61538464" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.7276923" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>430</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>1572</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>2052</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectStreamClass.java</url>
+          <line>1022</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>2075</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectStreamClass.java</url>
+          <line>1070</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/singleton/ContainerSingleton.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>desc.isInstantiable()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>desc</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/flyweight/EmployeeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/test/CalculateTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="833" lean-forward="true" selection-start-line="833" selection-end-line="833" />
+          <folding>
+            <element signature="e#0#60784#0" expanded="true" />
+            <element signature="e#32532#32533#0" expanded="true" />
+            <element signature="e#32566#32567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="1067" column="22" selection-start-line="1067" selection-start-column="22" selection-end-line="1067" selection-end-column="22" />
+          <folding>
+            <element signature="e#45070#45071#0" expanded="true" />
+            <element signature="e#45135#45136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/CalculateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/MinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/Calculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/SumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/NewTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/factorymethod/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/factorymethod/JavaVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/singleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/JieChengTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/software/JieCheng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/creational/singleton/ThreadLocalInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.imooc.design.pattern.structural.composite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.imooc.design.pattern.structural.composite</OriginalElement>
+          <nodes>
+            <node x="263.21875" y="463.0">com.imooc.design.pattern.structural.composite.Test</node>
+            <node x="253.125" y="0.0">com.imooc.design.pattern.structural.composite.AbstractCatalogComponent</node>
+            <node x="0.0" y="219.0">com.imooc.design.pattern.structural.composite.Course</node>
+            <node x="347.0" y="196.0">com.imooc.design.pattern.structural.composite.CourseCatalog</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.imooc.design.pattern.structural.composite.Test" target="com.imooc.design.pattern.structural.composite.CourseCatalog">
+              <point x="43.25" y="-27.0" />
+              <point x="392.96875" y="438.0" />
+              <point x="510.5" y="438.0" />
+              <point x="0.0" y="108.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.composite.CourseCatalog" target="com.imooc.design.pattern.structural.composite.AbstractCatalogComponent">
+              <point x="81.75" y="-108.5" />
+              <point x="592.25" y="171.0" />
+              <point x="525.625" y="171.0" />
+              <point x="109.0" y="73.0" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.composite.Test" target="com.imooc.design.pattern.structural.composite.Course">
+              <point x="-43.25" y="-27.0" />
+              <point x="306.46875" y="438.0" />
+              <point x="163.5" y="438.0" />
+              <point x="0.0" y="85.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.composite.Course" target="com.imooc.design.pattern.structural.composite.AbstractCatalogComponent">
+              <point x="0.0" y="-85.5" />
+              <point x="163.5" y="171.0" />
+              <point x="307.625" y="171.0" />
+              <point x="-109.0" y="73.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="201.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/AbstractCatalogComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/CourseCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/composite/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.imooc.design.pattern.structural.bridge.Test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.imooc.design.pattern.structural.bridge.Test</OriginalElement>
+          <nodes>
+            <node x="" y="">com.imooc.design.pattern.structural.bridge.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="27.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.imooc.design.pattern.structural.bridge">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.imooc.design.pattern.structural.bridge</OriginalElement>
+          <nodes>
+            <node x="145.625" y="279.0">com.imooc.design.pattern.structural.bridge.ICBCBank</node>
+            <node x="504.25" y="139.5">com.imooc.design.pattern.structural.bridge.SavingAccount</node>
+            <node x="253.125" y="-102.0">com.imooc.design.pattern.structural.bridge.Account</node>
+            <node x="255.125" y="187.0">com.imooc.design.pattern.structural.bridge.AbstractBank</node>
+            <node x="0.0" y="139.5">com.imooc.design.pattern.structural.bridge.DepositAccount</node>
+            <node x="365.625" y="279.0">com.imooc.design.pattern.structural.bridge.ABCBank</node>
+            <node x="269.125" y="407.0">com.imooc.design.pattern.structural.bridge.Test</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.imooc.design.pattern.structural.bridge.AbstractBank" target="com.imooc.design.pattern.structural.bridge.Account">
+              <point x="0.0" y="-51.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.Test" target="com.imooc.design.pattern.structural.bridge.SavingAccount">
+              <point x="64.875" y="-27.0" />
+              <point x="420.5" y="387.0" />
+              <point x="607.75" y="387.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.Test" target="com.imooc.design.pattern.structural.bridge.ICBCBank">
+              <point x="-21.625" y="-27.0" />
+              <point x="334.0" y="377.0" />
+              <point x="245.625" y="377.0" />
+              <point x="0.0" y="39.0" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.Test" target="com.imooc.design.pattern.structural.bridge.DepositAccount">
+              <point x="-64.875" y="-27.0" />
+              <point x="290.75" y="387.0" />
+              <point x="103.5" y="387.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.Test" target="com.imooc.design.pattern.structural.bridge.ABCBank">
+              <point x="21.625" y="-27.0" />
+              <point x="377.25" y="377.0" />
+              <point x="465.625" y="377.0" />
+              <point x="0.0" y="39.0" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.SavingAccount" target="com.imooc.design.pattern.structural.bridge.Account">
+              <point x="0.0" y="-38.5" />
+              <point x="607.75" y="102.0" />
+              <point x="424.625" y="102.0" />
+              <point x="69.0" y="38.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.ICBCBank" target="com.imooc.design.pattern.structural.bridge.AbstractBank">
+              <point x="0.0" y="-39.0" />
+              <point x="245.625" y="254.0" />
+              <point x="305.375" y="254.0" />
+              <point x="-50.25" y="51.0" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.DepositAccount" target="com.imooc.design.pattern.structural.bridge.Account">
+              <point x="0.0" y="-38.5" />
+              <point x="103.5" y="102.0" />
+              <point x="286.625" y="102.0" />
+              <point x="-69.0" y="38.5" />
+            </edge>
+            <edge source="com.imooc.design.pattern.structural.bridge.ABCBank" target="com.imooc.design.pattern.structural.bridge.AbstractBank">
+              <point x="0.0" y="-39.0" />
+              <point x="465.625" y="254.0" />
+              <point x="405.875" y="254.0" />
+              <point x="50.25" y="51.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="437.0" y="184.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/SavingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/DepositAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/AbstractBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ABCBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/ICBCBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/bridge/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16089">
+          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#220#228#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.imooc.design.pattern.structural.proxy.staticproxy.OrderServiceStaticProxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.imooc.design.pattern.structural.proxy.staticproxy.OrderServiceStaticProxy</OriginalElement>
+          <nodes>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.staticproxy.OrderServiceStaticProxy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="62.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.imooc.design.pattern.structural.proxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.imooc.design.pattern.structural.proxy</OriginalElement>
+          <nodes>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.Test</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.IOrderDao</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.Order</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.OrderDaoImpl</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.OrderServiceImpl</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.staticproxy.OrderServiceStaticProxy</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.IOrderService</node>
+            <node x="" y="">com.imooc.design.pattern.structural.proxy.db.DataSourceContextHolder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="298.0" y="278.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/staticproxy/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16740">
+          <caret line="663" column="40" selection-start-line="663" selection-start-column="40" selection-end-line="663" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11421">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/zht/java/Java企业级电商项目架构演进之路  Tomcat集群与Redis分布式/一期+二期资料/mmallv4.0/src/main/java/com/mmall/task/CloseOrderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/db/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design_pattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
